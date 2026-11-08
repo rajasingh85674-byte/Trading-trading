@@ -29,3 +29,14 @@ jobs:
       with:
         name: Tactical-Neural-Matrix-APK
         path: bin/*.apk
+your-project-folder/
+│
+├── .github/
+│   └── workflows/
+│       └── build.yml   <-- (इस फाइल का नाम यह रखना है और इसके अंदर गिटहब वाला कोड पेस्ट करना है)
+│
+├── main.py
+├── agents_module.py
+├── broker_connector.py
+├── requirements.txt
+└── buildozer.spec
